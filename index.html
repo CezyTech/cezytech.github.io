@@ -1,1 +1,252 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Slde</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		
+		<!-- CSS STYLES -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/ionicons.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/default-skin/default-skin.css" /> 
+		<link rel="stylesheet" type="text/css" href="css/vegas.css" /> 
+	
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- MODERNIZR -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+	
+	<!-- LOADER -->
+	<div id="background">
+		<div class="loading"> 
+			<div class="loader10"></div>
+		</div>
+    </div>
+	
+	<!-- BORDERS -->
+	<div class="top"></div> 
+	<div class="bottom"></div>
+	<div class="left"></div>
+	<div class="right"></div>
+	
+	<!-- START CONTENT -->
+	<div id="main-content">
+		<!-- START BUTTON TRIGGER -->
+		<button class="trigger">
+			<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+				<g class="icon icon--grid">
+					<rect x="4.5" y="6.5" width="55" height="4"/>
+					<rect x="4.5" y="25.5" width="55" height="4"/>
+					<rect x="4.5" y="44.5" width="55" height="4"/>
+				</g>
+				<g class="icon icon--cross">
+					<line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
+					<line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+				</g>
+			</svg>
+		</button><!-- END BUTTON TRIGGER -->
+		<!-- START INTRO -->
+		<header class="intro particles">
+			<div id="particles-js" class="intro__image"></div>
+			<div class="intro__content">
+				<h2 class="intro__title">Innovation In Progress</h2>
+				<div class="intro__subtitle">
+					<div class="intro__description">
+						We're working hard to create something really exciting! Watch this space for updates!
+					</div>
+				</div>
+			</div>
+		</header><!-- END INTRO -->
+		<!-- START ITEMS-WRAP -->
+		<div class="items-wrap">
+			<!-- START CONTAINER -->
+			<div class="container">
+				<!-- START WRAP-CONTAINER -->
+				<div class="section-container col-md-9">
+				    <!-- START ABOUT -->
+					<section id="about">
+					    <h1>A LITTLE SOMETHING<br>ABOUT US.</h1>	
+						<p>Cezy Technology is an innovation hub that are ready to bring the future to your door, right now. Incorporating cutting edge artificial intelligence concepts to provide you with a smarter solutions for a more connected home of the future.</p>
+						<br>
+						<p>We are working on some exciting technologies for a more connected world. From smart homes to industrial automation, we're developing some cool concepts which will make IoT accessible to everyone without breaking the bank. We are powered by innovation and asthetic design to develop simple, cost-effective low powered smart connectivity solutions</p>
+						<br>
+						<p>We know you're busy, so we're working hard to make life easier for you.</p>
+						<ul>
+							<li>
+								<div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+									<button type="button">Subscribe</button><span class="icon-c ion-android-close"></span>
+									<div class="bg-morph-button"></div>
+									<div class="morph-content">
+										<div class="content-style-form">
+											<form class="input-group" id="subscribe-form" action="//cezy.us14.list-manage.com/subscribe/post-json?u=1d139367f658ea41e6cd96c70&amp;id=4972286ba0" method="get" novalidate>
+												<input type="email" name="EMAIL" class="text" placeholder="Your email, you're awesome!" />
+												<span class="search-span">
+													<button value="Subscribe" name="subscribe" id="subscribe" class="submit button-search" type="submit">
+														<i class="ion-paper-airplane"></i>
+													</button>
+												</span>
+											</form>
+											<div id="subscribe-result"></div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</section><!-- END ABOUT -->
+					
+					<!-- START CONTACT -->
+					<section id="contact">
+						<div class="row">    
+	                        <div class="col-md-12">
+								<ul>
+									<li><i class="icon-a ion-ios-location-outline"></i><span>86 - 90 Paul Street, London, EC2A 4NE</span></li>
+									<li><i class="icon-a ion-ios-email-outline"></i><span>hello@cezy.co</span></li>
+								</ul>
+							</div>
+						</div>
+					</section><!-- END CONTACT -->
+				</div><!-- START SECTION-CONTAINER -->
+			</div><!-- START CONTAINER -->
+		</div><!-- END ITEMS-WRAP -->
+	</div><!-- END MAIN-CONTENT -->
+
+    <!-- BG-COLOR-MORPH -->
+    <div class="bg-color-morph"></div>	
+
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/main.js"></script> 
+
+<script>
+	$(".intro__image").vegas({
+        slides: [
+           { src: "img/background.png" }
+        ]     
+    });
+
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+
+
+</script>
+</body>
+</html>
