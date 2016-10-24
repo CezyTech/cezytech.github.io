@@ -23,8 +23,8 @@ Version: 1.0
  
 ================================================================== */
 
-@import 'http://fonts.googleapis.com/css?family=Lato:100,400,900,300';
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300';
+@import '//fonts.googleapis.com/css?family=Lato:100,400,900,300';
+@import '//fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300';
 
 /* ==================================================================
                                GENERAL
